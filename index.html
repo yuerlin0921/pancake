@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--分頁顯示的名稱 A-3 -->
+	<title>鬆餅</title>
+	
+<!--  引入自己寫的CSS  A-2-->
+
+	<link href="../09170343/09170343/09170156/期中考檔案夾/style.css" rel="stylesheet" type="text/css">
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+
+</head>
+	  
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="../09170343/09170343/09170343/期中考檔案夾/index.html"> 首頁 <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="../09170343/09170343/09170343/期中考檔案夾/intro.html">資訊欄</a>
+                   
+                    <a class="nav-item nav-link" href="../09170343/09170343/09170343/期中考檔案夾/contactus.html">秘密基地</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+</section>
+
+
+
+
+	
+<!--給jumbotron一個名稱，叫做 "first"-->
+<section id="first">
+  <!--套用jumbotron的樣式-->
+  <div class="jumbotron">
+		<!--將自己的科系名字學號套用乾淨的<h1>樣式-->
+  		<h1>鬆餅</h1>
+			<!--新增一個按鈕，套用btn-danger樣式，設定超連結href:到youtube、銘傳官網、XX系官網，而且是開一個新分頁 target="_blank"-->
+			
+			<!-- C-5 參考連結: https://bootstrap.hexschool.com/docs/4.2/components/buttons/ -->
+			<a class="btn btn-danger" href="https://youtu.be/p7j3zv-64d8"  >鬆餅誕生</a>
+	        <a class="btn btn-info" href="https://zh.wikipedia.org/wiki/%E9%AC%86%E9%A4%85" role="button" target="_blank" >鬆餅歷史</a>
+	         <a class="btn btn-outline-warning" href="https://www.foodpanda.com.tw/chain/cj8kt/xiao-mu-wu-song-bing#" role="button"  target="_blank">懶得做鬆餅</a>
+		
+				
+  </div>
+</section>
+	
+
+	
+	
+</body>
+</html>
+
